@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 </head>
 <body>
@@ -11,7 +10,7 @@
         <div class="col-md-12">
             <?php
             if(isset($_POST) and $_SERVER["REQUEST_METHOD"] == "POST") {
-                print_r($newFile);
+                print_r(nl2br($newFile));
             }
             ?>
         </div>
@@ -36,7 +35,7 @@
                 <input type="text" class="form-control" id="months" name="months" placeholder="Number Of Months">
             </div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" name="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
 </body>

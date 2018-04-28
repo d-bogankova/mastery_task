@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# mastery_task
+>>>>>>> 410344b8575744a5fd02898f8dc09e7d8740757b
 # My First Lab at Godel Technologies
 This is my first lab at Godel Technologies
 
@@ -19,4 +23,7 @@ to be revision....
 
 ## Author
 Developed by D.Bogankova
+<<<<<<< HEAD
 
+=======
+>>>>>>> 410344b8575744a5fd02898f8dc09e7d8740757b
