@@ -8,8 +8,13 @@
     <h1 class="text-primary">LogIn Form</h1>
     <div class="row">
         <div class="col-md-12">
+            <?php if (!empty($errors)):?>
+            <div class="alert alert-danger" role="alert">
+               <?php $errorOutput = implode('<br>', $errors); echo $errorOutput; ?>
+            </div>
+            <?php endif; ?>
             <?php
-            if(isset($_POST) and $_SERVER["REQUEST_METHOD"] == "POST") {
+            if(isset($_POST) && $_SERVER["REQUEST_METHOD"] == "POST" && empty($errors)) {
                 print_r(nl2br($newFile));
             }
             ?>
