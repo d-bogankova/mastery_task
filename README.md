@@ -14,9 +14,7 @@ For execute in CLI mode you must enter in terminal this 'php /project folder/ind
 
 
 ## Versions
-1.0
-not a final version
-to be revision....  
+2.0 
 
 ## Author
 Developed by D.Bogankova
